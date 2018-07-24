@@ -41,7 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IJuegoServicio.cs" />
+    <Compile Include="IPreguntaServicio.cs" />
     <Compile Include="JuegoServicio.cs" />
+    <Compile Include="PreguntaDeporte.cs" />
+    <Compile Include="PreguntaGeografia.cs" />
+    <Compile Include="PreguntaHistoria.cs" />
+    <Compile Include="PreguntasEntretenimiento.cs" />
+    <Compile Include="PreguntaServicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

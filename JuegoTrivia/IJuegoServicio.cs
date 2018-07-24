@@ -12,7 +12,11 @@ namespace JuegoTrivia
 
         List<Jugador> GetUsuario();
 
-        string Search(int id);
-       
+        void EscojePregunta();
+
+
+        void Agrega();
+
+
     }
 }

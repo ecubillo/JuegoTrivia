@@ -8,10 +8,11 @@ namespace JuegoTrivia
 {
    public class Pregunta
     {
+        //public string Categoria { get; set; }
         public string TipoPregunta { get; set; }
         public int PreguntaID { get; set; }
 
-        public Pregunta(string tipoPregunta, int preguntaID)
+        public Pregunta( string tipoPregunta, int preguntaID)
         {
             TipoPregunta = tipoPregunta;
             PreguntaID = preguntaID;
